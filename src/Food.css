@@ -1,0 +1,44 @@
+.con2{
+    
+    height: 300px;
+    width: 400px;
+    background-image: url("C:\Users\Pavan Kalyan\Downloads\world2.jpeg");
+    background-size: cover;
+    filter: drop-shadow(10px 10px 10px black);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+.con1{
+    display: flex;
+    justify-content: center;
+}
+.tags{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+}
+.b{
+    height: 25px;
+    width: 60px;
+    border-radius: 5px;
+    filter: drop-shadow(2px 2px 2px);
+}
+body{
+    background-color: antiquewhite;
+}
+.h{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.l{
+    box-shadow: none;
+    margin: 50px;
+    margin-top: 10px;
+    height: 200px;
+    width: 300px;
+}
