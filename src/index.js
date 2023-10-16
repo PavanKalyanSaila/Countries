@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Headerbar from './Headerbar';
-import Album from './Album';
+// import Headerbar from './Headerbar';
+// import Album from './Album';
 import {BrowserRouter} from 'react-router-dom';
-import Food from './Food';
+import Countries from './Countries';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

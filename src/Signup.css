@@ -1,0 +1,13 @@
+.cont1{
+    height: 550px;
+    width: 500px;
+    background-color: azure;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    filter: drop-shadow(5px 5px 5px );
+    flex-direction: column;
+    margin:20px 50px 400px 450px;
+    border-radius: 10px;
+    margin-left: 350px;
+}

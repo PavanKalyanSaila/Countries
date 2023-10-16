@@ -1,0 +1,42 @@
+.container{
+    height: 350px;
+    width: 350px;
+    background-color: azure;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    filter: drop-shadow(5px 5px 5px );
+    flex-direction: column;
+    margin:20px 50px 400px 450px;
+    border-radius: 10px;
+}
+.container:hover{
+    transform: scale(1.05);
+}
+.input{
+    height: 10px;
+    padding: 20px;
+    width: 250px;
+    filter: drop-shadow(2px 2px 2px);
+    text-decoration: solid black;
+    
+}
+
+.bt{
+    padding: 10px;
+    margin: 15px;
+    height: 40px;
+    border-radius: 6px;
+    filter: drop-shadow(2px 2px 2px);
+    color: aliceblue;
+    background-color: rgb(31, 124, 222);
+    width: 70px;
+}
+.bt:hover{
+    transform: scale(1.03);
+    background-color: rgba(45, 45, 211, 0.823);
+}
+.p{
+    margin: 1px;
+    transform: scale(1.0);
+}

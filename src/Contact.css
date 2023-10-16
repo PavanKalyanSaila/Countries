@@ -1,0 +1,17 @@
+.cont{
+    margin: 20px;
+    margin-left: 300px;
+    border: 1px solid black;
+    width: 600px;
+    padding: 10px;
+    background-color: rgba(222, 221, 224, 0.989);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cont:hover{
+    transform: scale(1.09);
+    background-image: linear-gradient(to right,rgb(241, 102, 236),rgb(151, 231, 120));
+}

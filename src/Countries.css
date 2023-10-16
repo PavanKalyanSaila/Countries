@@ -1,0 +1,93 @@
+.con2{
+    height: 350px;
+    width: 350px;
+    margin-left: 50px;
+    background-image: url("C:\Users\Pavan Kalyan\Downloads\world2.jpeg");
+    background-size: cover;
+    position: relative;
+    border-radius: 10PX;
+    filter: drop-shadow(5PX 5PX 5PX black); 
+    margin-top: 30px;
+    animation-name: ex2;
+    animation-duration: 1.5s;
+  } 
+@keyframes ex2{
+    from {transform: translateX(-600px);}
+    to {transform: translateX(0px);}
+}
+.con2:hover{
+    transform: scale(1.05);
+}
+.con3{
+    font-size: large;
+    padding-top: 90px;
+    height: 65%;
+    width: 60%;
+    animation-name: ex1;
+    animation-duration: 1.5s;
+}
+@keyframes ex1{
+    from {transform: translateX(900px);}
+    to {transform: translateX(0px);}
+}
+.con1{
+    display: flex;
+    justify-content: start;
+    grid-template-columns: 50% 50%;
+}
+.tags{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+    grid-template-columns: 70% 30%;
+
+}
+.tags button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 5px;
+    color: white;
+    filter: drop-shadow(5px 5px 5px black);
+}
+.tags1{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    
+}
+.tags2{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 190px;
+}
+.tags2:hover{
+   transform: scale(1.1);
+
+}
+.b{
+    height: 25px;
+    width: 60px;
+    border-radius: 5px;
+    filter: drop-shadow(2px 2px 2px);
+}
+body{
+    background-image: linear-gradient(to right,rgb(87, 123, 156),rgb(177, 206, 255));
+}
+.h{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.l{
+    box-shadow: none;
+    margin: 50px;
+    margin-top: 10px;
+    height: 200px;
+    width: 300px;
+}
+
